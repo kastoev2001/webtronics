@@ -1,0 +1,29 @@
+.technologies__line {
+	position: relative;
+	width: 180px;
+	padding: 25px 10px;
+	margin: 0;
+	margin-right: 25px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 16px;
+}
+
+.technologies__icon-wrapper {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.technologies__icon {
+	max-width: 100%;
+}
+
+.technologies__title {
+	font-family: "Clash Display";
+	font-size: 24px;
+	line-height: 28.8px;
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+}

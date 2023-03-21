@@ -1,0 +1,156 @@
+.header {
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-4.71%, rgba(12, 16, 45, 0.28)), color-stop(97.38%, #0C102D));
+	background-image: -o-linear-gradient(top, rgba(12, 16, 45, 0.28) -4.71%, #0C102D 97.38%);
+	background-image: linear-gradient(180deg, rgba(12, 16, 45, 0.28) -4.71%, #0C102D 97.38%);
+}
+
+.header__wrapper {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 200px;
+}
+
+.header__wrapper::before {
+	content: "";
+	position: absolute;
+	top: 390px;
+	right: -230px;
+	width: 356px;
+	height: 356px;
+	background-color: #2A3E84;
+	-webkit-filter: blur(175px);
+	filter: blur(175px);
+}
+
+.header__wrapper::after {
+	content: "";
+	position: absolute;
+	top: 500px;
+	left: -60px;
+	width: 356px;
+	height: 356px;
+	background-color: #2A3E84;
+	-webkit-filter: blur(175px);
+	filter: blur(175px);
+}
+
+.header__top {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 100px;
+	margin-bottom: 85px;
+}
+
+.nav__wrapper {
+	width: 525px;
+}
+
+.list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+
+.line {
+	padding: 0;
+	margin: 0;
+}
+
+.line:last-of-type {
+	margin-right: 0;
+}
+
+.link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header__bottom {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.header__title {
+	font-family: "Clash Display", sans-serif;
+	font-size: 150px;
+	font-weight: 600;
+	line-height: 180px;
+	padding: 0;
+	margin: 0;
+}
+
+.header__title:first-of-type {
+	margin-right: 55px;
+}
+
+.text {
+	width: 360px;
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+	padding: 0;
+	margin: 0;
+}
+
+.button {
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+	padding: 25px 35px;
+	margin: 0;
+	color: #0A1482;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1FF2FF), color-stop(52.66%, #27F9E5), to(#2FFFCD));
+	background-image: -o-linear-gradient(top, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+	background-image: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+	border-radius: 8px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.header.button {
+	margin-right: 25px;
+}
+
+.button:hover {
+	color: #3B48D0;
+}
+
+.button:active {
+	color: #fff;
+}
+
+.button:disabled {
+	color: #0A1482;
+	opacity: 0.4;
+}
+
+.header__span {
+	position: absolute;
+	font-family: "Clash Display", sans-serif;
+	font-size: 32px;
+	line-height: 38.4px;
+	font-weight: 600;
+	bottom: 0;
+	right: 45px;
+}

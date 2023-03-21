@@ -1,0 +1,94 @@
+.contact-us--width {
+	max-width: 495px;
+}
+
+.contact-us__wrapper {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 55px 0;
+	margin: 0;
+	margin-bottom: 180px;
+}
+
+.contact-us__wrapper::before {
+	content: "";
+	position: absolute;
+	top: -210px;
+	right: -130px;
+	width: 398px;
+	height: 398px;
+	background-color: #2A3E84;
+	-webkit-filter: blur(175px);
+	filter: blur(175px);
+	z-index: -1;
+}
+
+.small-title {
+	font-family: "Clash Display";
+	font-size: 32px;
+	line-height: 38.4px;
+	font-weight: 600;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.text {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.form {
+	width: 100%;
+}
+
+.form__wrapper {
+	width: 100%;
+}
+
+.button {
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+	width: 100%;
+	padding: 25px 35px;
+	margin: 0;
+	color: #0A1482;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1FF2FF), color-stop(52.66%, #27F9E5), to(#2FFFCD));
+	background-image: -o-linear-gradient(top, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+	background-image: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+	border-radius: 8px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.header.button {
+	margin-right: 25px;
+}
+
+.button:hover {
+	color: #3B48D0;
+}
+
+.button:active {
+	color: #fff;
+}
+
+.button:disabled {
+	color: #0A1482;
+	opacity: 0.4;
+}
