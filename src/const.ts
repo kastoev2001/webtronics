@@ -3,7 +3,9 @@ export const NameSpace = {
 } as const;
 
 export const APIRoute = {
-    CONTACT_US: 'contactUs',
+    FEEDBACK: 'feedback',
 } as const;
 
 export const sizeIdUnique = 5;
+
+export const SITE_REQUIEST = 'http://localhost:3004';

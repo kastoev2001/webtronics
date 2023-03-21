@@ -14,7 +14,7 @@ type ContactUsInputProps = {
 function ContactUsInput({inputAttributes, isInputValid}: ContactUsInputProps): JSX.Element {
 	const formInputRef = useRef<HTMLInputElement | null>(null);
 	useEffect(() => {
-		console.log(isInputValid)
+		
 		const formInputElem = formInputRef.current;
 
 		let svgBorderInstance: SVGBorder;

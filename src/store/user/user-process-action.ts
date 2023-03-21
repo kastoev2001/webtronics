@@ -16,7 +16,7 @@ NewUser,
     'data/fetchUserAction',
      async (newUser, {extra: api}) => {
         console.log(newUser)
-    const { data } = await api.post<NewUser>(APIRoute.CONTACT_US, newUser);
+    const { data } = await api.post<NewUser>(APIRoute.FEEDBACK, newUser);
 
     return data;
 });

@@ -1,19 +1,6 @@
 import Validator from 'validatorjs';
 import { NewUser } from '../../types/user';
 
-export const checkFieleds =(data: NewUser): boolean => {
-	const rules = {
-		name: 'required|string',
-		email: 'required|email',
-		phone: ['required', 'regex:/^((8|\\+7)[\\- ]?)?(\\(?\\d{3}\\)?[\\- ]?)?[\\d\\- ]{7,10}$/']
-	}
-	const validator = new Validator(data, rules);
-
-	const isValidFieleds = validator.passes() ? true : false;
-
-	return isValidFieleds;
-};
-
 export const checkName = (name: string): boolean => {
   const isNameValid = /^([A-Za-z\-\']{1,50})|([А-Яа-я\-\']{1,50})$/.test(name)
 

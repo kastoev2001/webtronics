@@ -26,9 +26,7 @@ function ContactUs(): JSX.Element {
 		const isNameValid = checkName(name);
 		const isEmailValid = checkEmail(email);
 		const isPhoneValid = checkPhone(phone);
-		console.log(isNameValid,
-			isEmailValid,
-			isPhoneValid)
+		
 		if (
 			!isNameValid
 		) {

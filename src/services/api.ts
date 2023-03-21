@@ -1,7 +1,8 @@
 import axios, { AxiosError, AxiosInstance, AxiosResponse } from 'axios';
 import { toast } from 'react-toastify'
+import { SITE_REQUIEST } from '../const';
 
-const BACKEND_URL = process.env.API_HOST;
+const BACKEND_URL = SITE_REQUIEST;
 const REQUEST_TIMEOUT = 5000;
 
 export default function createApi(): AxiosInstance {
